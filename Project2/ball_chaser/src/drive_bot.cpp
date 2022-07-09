@@ -14,14 +14,14 @@ bool handle_drive_request(ball_chaser::DriveToTarget::Request& req, ball_chaser:
 {
   ROS_INFO("DriveToTargetRequest received - linear_x: %1.2f, angular_z: %1.2f", (float)req.linear_x, (float)req.angular_z);
 
-  geometry_msgs::Twist cmd_vel_;
+  geometry_msgs::Twist cmd_vel;
 
-  cmd_vel_.linear.x = req.linear_x; // both of them are float64
-  cmd_vel_.angular.z = req.angular_z; // both of them are float64
+  cmd_vel.linear.x = req.linear_x; // both of them are float64
+  cmd_vel.angular.z = req.angular_z; // both of them are float64
   
-  motor_command_publisher.publish(cmd_vel_);
+  motor_command_publisher.publish(cmd_vel);
 
-  res.msg_feedback = "Velocity cmd sent: lin_x = " + std::to_string(cmd_vel_.linear.x) + ", ang_z = " + std::to_string(cmd_vel_.angular.z);
+  res.msg_feedback = "Velocity cmd sent: lin_x = " + std::to_string(cmd_vel.linear.x) + ", ang_z = " + std::to_string(cmd_vel.angular.z);
 
   ROS_INFO_STREAM(res.msg_feedback);
   
