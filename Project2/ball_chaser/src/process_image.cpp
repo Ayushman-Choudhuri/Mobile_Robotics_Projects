@@ -69,7 +69,7 @@ void process_image_callback(const sensor_msgs::Image img)
     }
 
     // Move Left
-    if ((left_white_pixel_count> right_white_pixel_count) && (leftWhitePixelCounter > center_white_pixel_count))
+    if ((left_white_pixel_count> right_white_pixel_count) && (left_white_pixel_count> center_white_pixel_count))
     {
         drive_robot(0.5, 0.5);
     }
