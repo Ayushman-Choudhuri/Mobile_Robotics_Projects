@@ -33,7 +33,7 @@ ball_chaser:
 5. The ball_chaser.launch should run both the drive_bot and the process_image nodes.
 
 
-## Project 3: Where am I ? (ONGOING)
+## Project 3: Where am I ? (Ongoing)
 
 Tasks: 
 
