@@ -20,7 +20,8 @@ In this project, you should create two ROS packages inside your catkin_ws/src: t
 drive_bot:
     
 1. Create a my_robot ROS package to hold your robot, the white ball, and the world.
-2. Design a differential drive robot with the Unified Robot Description Format. Add two sensors to your robot: a lidar and a camera. Add Gazebo plugins for your robot’s differential drive, lidar, and camera. The robot you design should be significantly different from the one presented in the project lesson. 3. Minimum required changes are adjusting the color, wheel radius, and chassis dimensions. You can also completely redesign the robot model! After all, you want to impress your future employers :-D
+2. Design a differential drive robot with the Unified Robot Description Format. Add two sensors to your robot: a lidar and a camera. Add Gazebo plugins for your robot’s differential drive, lidar, and camera. The robot you design should be significantly different from the one presented in the project lesson. 
+3. Minimum required changes are adjusting the color, wheel radius, and chassis dimensions.
 4. Create a new world, which is different from the world you built in the Build My World project and house your robot inside that world.
 5. Add a white-colored ball to your Gazebo world and save a new copy of this world.
 6. The world.launch file should launch your world with the white-colored ball and your robot.
