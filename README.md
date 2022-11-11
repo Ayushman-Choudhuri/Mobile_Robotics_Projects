@@ -33,7 +33,7 @@ ball_chaser:
 5. The ball_chaser.launch should run both the drive_bot and the process_image nodes.
 
 
-## Project 3: Where am I ? (Ongoing)
+## Project 3: Where am I ?
 
 Tasks: 
 
@@ -42,3 +42,11 @@ Tasks:
 3. Explore, add, and tune specific parameters corresponding to each package to achieve the best possible localization results
 
 
+## Project 4: Map my World (Ongoing)
+
+Tasks: 
+
+1. Develop a package to interface with the rtabmap_ros package.
+2. Build on top of the localization project to make the necessary changes to interface the robot with RTAB-Map. An example of this is the addition of an RGB-D camera.
+3. Ensure that all files are in the appropriate places, all links are properly connected, naming is properly setup and topics are correctly mapped. Furthermore you will need to generate the appropriate launch files to launch the robot and map its surrounding environment.
+4. Teleop around the room to generate a proper map of the environment.
