@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+
+<!-- sdf is the base element which encapsulates the entire file structure and content  -->
+<!-- sdf is a XML format that describes the objects and environments for robot simulators, visualization and control-->
+
+<sdf version="1.4">
+
+<!-- The world element defines the world description and several properties pertaining to that world -->
+
+  <world name="default">
+
+<!-- The include element, along with the <uri> element, provide a path to a particular model-->
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- World camera -->
+    <gui fullscreen='0'>
+      <camera name='world_camera'>
+        <pose>4.927360 -4.376610 3.740080 0.000000 0.275643 2.356190</pose>
+        <view_controller>orbit</view_controller>
+      </camera>
+    </gui>
+
+  </world>
+</sdf>
