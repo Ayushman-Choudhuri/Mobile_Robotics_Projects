@@ -43,7 +43,7 @@ Tasks:
 3. Explore, add, and tune specific parameters corresponding to each package to achieve the best possible localization results
 
 
-## Project 4: Map my World (Ongoing)
+## Project 4: Map my World
 
 Tasks: 
 
