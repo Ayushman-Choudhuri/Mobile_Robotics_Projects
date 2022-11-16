@@ -151,43 +151,6 @@
         </link>
       </model>
 
-
-      <model name='husky'>
-        <pose frame=''>-4.44373 0.207694 0.142752 1e-06 -1e-05 -0.046216</pose>
-        <scale>1 1 1</scale>
-        <link name='back_left_wheel'>
-          <pose frame=''>-4.68627 0.504692 0.17775 3.14158 0.815494 3.09537</pose>
-          <velocity>0.007405 -0.00105 -0.00336 -0.001213 0.021202 -0.000352</velocity>
-          <acceleration>3.61491 -0.467324 -6.75817 2.35892 0.181499 -3.01573</acceleration>
-          <wrench>9.52783 -1.23172 -17.8125 0 -0 0</wrench>
-        </link>
-        <link name='back_right_wheel'>
-          <pose frame=''>-4.71265 -0.065648 0.17775 3.14158 0.783945 3.09537</pose>
-          <velocity>0.007569 -0.001025 -0.003504 -0.001342 0.022662 -0.000417</velocity>
-          <acceleration>3.51884 -0.397407 -7.04545 1.93879 0.200929 3.03376</acceleration>
-          <wrench>9.27461 -1.04744 -18.5697 0 -0 0</wrench>
-        </link>
-        <link name='base_link'>
-          <pose frame=''>-4.44373 0.207694 0.142752 1e-06 -1e-05 -0.046216</pose>
-          <velocity>0.007909 -0.000817 -0.000467 -0.000498 -0.011556 0.000305</velocity>
-          <acceleration>-1.11656 0.0677 -2.93875 2.73958 1.18504 2.79294</acceleration>
-          <wrench>-37.801 2.292 -99.4912 0 -0 0</wrench>
-        </link>
-        <link name='front_left_wheel'>
-          <pose frame=''>-4.17482 0.481038 0.177755 3.14158 -0.119512 3.09538</pose>
-          <velocity>0.007435 -0.000626 0.002477 0.003463 0.041766 0.000204</velocity>
-          <acceleration>3.65681 0.000286 4.95457 3.06406 -0.076707 -0.497701</acceleration>
-          <wrench>9.63824 0.000753 13.0588 0 -0 0</wrench>
-        </link>
-        <link name='front_right_wheel'>
-          <pose frame=''>-4.2012 -0.089302 0.177755 3.14158 0.311686 3.09538</pose>
-          <velocity>0.007591 -0.000648 0.002517 0.00359 0.042539 0.00053</velocity>
-          <acceleration>3.54367 -0.024349 5.03434 -3.11225 -0.092094 0.753812</acceleration>
-          <wrench>9.34006 -0.064176 13.269 0 -0 0</wrench>
-        </link>
-      </model>
-
-
       <model name='my_ball'>
         <pose frame=''>2.09761 15.5165 0.5 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -198,10 +161,6 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-
-
-      
-
 
       <model name='myrobot'>
         <pose frame=''>-0.178042 -1.04353 0.201413 0.002277 2.9e-05 -0.055999</pose>

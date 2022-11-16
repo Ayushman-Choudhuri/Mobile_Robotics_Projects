@@ -20,10 +20,9 @@
   </gazebo>
 
 !--...............................LINKS.................................................-->
-
-  <xacro:include filename="$(find my_robot)/urdf/my_robot.gazebo" /> 
   <link name="robot_footprint"></link>
-   
+
+  <xacro:include filename="$(find my_robot)/urdf/my_robot.gazebo" />
 
 <!-- Link details for chassis-->
   <link name='chassis'>
@@ -146,9 +145,11 @@
   <!-- Link details for Camera-->
 
   <link name="camera">
+    <pose> 0 0 0 0 0 0 </pose>
+	
     <inertial>
       <mass value="0.1"/>
-      <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0 0"/>
       <inertia
         ixx="1e-6" ixy="0.0" ixz="0.0"
         iyy="1e-6" iyz="0.0"
@@ -177,6 +178,8 @@
   <!-- Link details for LIDAR-->
 
   <link name="hokuyo">
+  <pose> 0 0 0 0 0 </pose>
+
     <inertial>
       <mass value="1e-5"/>
       <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -251,11 +254,13 @@
     <origin xyz="0.15 0 0.1" rpy="0 0 0" />
     <parent link="chassis"/>
     <child link="hokuyo" />  
-    <axis xyz="0 1 0"/> 
+    <axis xyz="0 1 0" rpy = "0 0 0"/> 
+    <limit effort="10000" velocity="1000"/>
+    <dynamics dampning="1.0" friction="1.0"/>
   </joint>
 
   <joint name="camera_optical_joint" type="fixed">
-    <origin xyz="0 0 0" rpy="-1.5707 0 -1.5707"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
     <parent link="camera"/>
     <child link="camera_link_optical"/>
   </joint>
