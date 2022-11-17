@@ -260,7 +260,7 @@
   </joint>
 
   <joint name="camera_optical_joint" type="fixed">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <origin xyz="0 0 0" rpy="-1.5707 0 -1.5707"/>
     <parent link="camera"/>
     <child link="camera_link_optical"/>
   </joint>
