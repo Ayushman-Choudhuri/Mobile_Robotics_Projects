@@ -1,7 +1,7 @@
-## Brief Description of the files
+## Brief Description of the files and packages
 
 
-1. view_home_service_navigation.launch: Launch rviz with specify rviz configuration file
+1. view_navigation.launch: Launch rviz with specify rviz configuration file
 
 2. add_markers.cpp: C++ script, communicate with pick_objects node and control the marker appearance to simulate object pick up and drop off
 
