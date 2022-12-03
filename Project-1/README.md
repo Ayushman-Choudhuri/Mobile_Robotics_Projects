@@ -61,12 +61,12 @@ Step 4: Build and run the project
 
 Folder and File Descriptions: 
 
-1. **[model](Project1/model)** : Contains all the model files
-    - **[Building](Project1/model/Building)**: Building structure built using the building editor of Gazebo
-    - **[myrobot](Project1/model/myrobot)**: Robot model built using model editor of Gazebo
-3. **[script](Project1/script)**: Contains a Gazebo world plugin C++ script
-4. **[world](Project1/world)**: Contains the Gazebo World file written in the SDF Format  
-5. **[CMakeLists.txt](Project1/CmakeLists.txt)**: File to link the C++ code to the libraries
+1. **[model](model)** : Contains all the model files
+    - **[Building](model/Building)**: Building structure built using the building editor of Gazebo
+    - **[myrobot](model/myrobot)**: Robot model built using model editor of Gazebo
+3. **[script](script)**: Contains a Gazebo world plugin C++ script
+4. **[world](world)**: Contains the Gazebo World file written in the SDF Format  
+5. **[CMakeLists.txt](CMakeLists.txt)**: File to link the C++ code to the libraries
 
 ### Running the Project
 
