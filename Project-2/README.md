@@ -46,9 +46,9 @@ Please make sure the following dependencies are met before running the project:
 * **Step 1**: Make sure the dependencies are met
 * **Step 2**: Open bash/terminal and clone the project repository
 * **Step 3**: Execute the following line in the command line to update info and upgrade the outdated packages and dependencies on your system.
-
-    `sudo apt-get update && sudo apt-get upgrade -y`
-
+  ```bash
+  sudo apt-get update && sudo apt-get upgrade -y
+  ```
 * **Step 4**: Build and run the project
 ## Directory Structure
 
@@ -85,34 +85,39 @@ Please make sure the following dependencies are met before running the project:
 ## Running the Project
 
 * **Step 1** : Clone the repository
-
-`git clone https://github.com/Ayushman-Choudhuri/Udacity-Robotics-Software-Engineer-Nanodegree`
+  ```bash
+  git clone https://github.com/Ayushman-Choudhuri/Udacity-Robotics-Software-Engineer-Nanodegree
+  ```
 
 * **Step 2**: Open the repository and make
+  ```bash
+  cd /home/workspace/catkin_ws/
 
-    ` cd /home/workspace/catkin_ws/`
-
-    `catkin_make`
+  catkin_make
+  ```
 
 * **Step 3**: Launch my_robot in Gazebo (both world and plugins): 
     
-    `  source devel/setup.bash `
+  ```bash
+  source devel/setup.bash 
 
-    `roslaunch my_robot world.launch`
+  roslaunch my_robot world.launch
+  ```
 
 * **Step 4**:  launch `ball_chaser` and `process_image` nodes
+  ```bash
+  cd /home/workspace/catkin_ws/
 
-    ` cd /home/workspace/catkin_ws/`
+  source devel/setup.bash
 
-    `  source devel/setup.bash`
-    
-    ` roslaunch ball_chaser ball_chaser.launch`
+  roslaunch ball_chaser ball_chaser.launch
+  ```
 
 * **Step 5**: Visualize node connections 
+  ```bash
+  cd /home/workspace/catkin_ws/
 
-    ` cd /home/workspace/catkin_ws/`
+  source devel/setup.bash
 
-    `  source devel/setup.bash`
-
-    ` rosrun rqt_image_view rqt_image_view`
-
+  rosrun rqt_image_view rqt_image_view
+  ```
