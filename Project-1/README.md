@@ -36,8 +36,9 @@ Please make sure the following dependencies are met before running the project:
 Step 1: Make sure the dependencies are met
 Step 2: Open bash/terminal and clone the project repository
 Step 3: Execute the following line in the command line to update info and upgrade the outdated packages and dependencies on your system.
-
-`sudo apt-get update && sudo apt-get upgrade -y`
+```bash
+sudo apt-get update && sudo apt-get upgrade -y
+```
 
 Step 4: Build and run the project
 
@@ -71,31 +72,33 @@ Folder and File Descriptions:
 ### Running the Project
 
 Step 1: Clone the repository
-
-`git clone https://github.com/Ayushman-Choudhuri/Udacity-Robotics-Software-Engineer-Nanodegree`
-
+```bash
+git clone https://github.com/Ayushman-Choudhuri/Udacity-Robotics-Software-Engineer-Nanodegree
+```
 Step 2: At the top level of the project repository, create a build directory
-
-`mkdir build && cd build`
-
+```bash
+mkdir build && cd build
+```
 Step 3: In the build directory, compile your code with 
-
-`cmake .. && make`
-
+```bash
+cmake .. && make
+```
 Step 4: Export your plugin folder in the terminal so your world file can find it 
-
-`export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/Project\ 1/build`
+```bash
+export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/Project\ 1/build
+```
 
 Step 5: launch the world file in Gazebo to  load both the world and plugin file
+```bash
+cd /home/workspace/Project\ 1/world/
 
-`cd /home/workspace/Project\ 1/world/`  
-
-`gazebo myworld`
-
+gazebo myworld
+```
 ### Suggestions
 
 It is recommended to update and upgrade your working environment before running the code:   
 
-`sudo apt-get update && sudo apt-get upgrade -y`
-
+```bash
+sudo apt-get update && sudo apt-get upgrade -y
+```
 
