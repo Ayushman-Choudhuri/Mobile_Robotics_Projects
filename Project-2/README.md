@@ -88,15 +88,16 @@ Please make sure the following dependencies are met before running the project:
   ```bash
   git clone https://github.com/Ayushman-Choudhuri/Udacity-Robotics-Software-Engineer-Nanodegree
   ```
+* **Step 2** : add the `ball_chaser` and `my_robot` to your catkin workspace 
 
-* **Step 2**: Open the repository and make
+* **Step 3**: Open your catkin_workspace and make
   ```bash
   cd /home/workspace/catkin_ws/
 
   catkin_make
   ```
 
-* **Step 3**: Launch my_robot in Gazebo (both world and plugins): 
+* **Step 4**: Launch my_robot in Gazebo (both world and plugins): 
     
   ```bash
   source devel/setup.bash 
@@ -104,7 +105,7 @@ Please make sure the following dependencies are met before running the project:
   roslaunch my_robot world.launch
   ```
 
-* **Step 4**:  launch `ball_chaser` and `process_image` nodes
+* **Step 5**:  launch `ball_chaser` and `process_image` nodes
   ```bash
   cd /home/workspace/catkin_ws/
 
@@ -113,7 +114,7 @@ Please make sure the following dependencies are met before running the project:
   roslaunch ball_chaser ball_chaser.launch
   ```
 
-* **Step 5**: Visualize node connections 
+* **Step 6**: Visualize node connections 
   ```bash
   cd /home/workspace/catkin_ws/
 
