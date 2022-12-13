@@ -128,15 +128,13 @@ sudo apt-get install ros-kinetic-rtabmap-ros
 ```
 roslaunch my_robot world.launch
 ```  
-* **Step 4**:Launch teleop_twist_keyboard node, open a new terminal, enter  
+* **Step 4**:Launch teleop_twist_keyboard node, open a new terminal, navigate to your catkin workspace and enter  
 ```
-cd /home/workspace/RoboND-Term1-P4-Map-My-World/catkin_ws/
 source devel/setup.bash
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```  
 * **Step 5**:Launch teleop_twist_keyboard node, open a new terminal, enter  
 ```
-cd /home/workspace/RoboND-Term1-P4-Map-My-World/catkin_ws/
 source devel/setup.bash
 roslaunch my_robot mapping.launch
 ```  
