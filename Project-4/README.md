@@ -3,6 +3,9 @@
 
 ## Project Overview
 
+![alt-text](https://github.com/Ayushman-Choudhuri/Udacity-Robotics-Software-Engineer-Nanodegree/blob/main/Project-4/Images%20and%20Videos/demo.gif)
+![alt-text](https://github.com/Ayushman-Choudhuri/Udacity-Robotics-Software-Engineer-Nanodegree/blob/main/Project-4/Images%20and%20Videos/Loop%20Closures.png)
+
 This project aims to create a 2D occupancy grid and 3D octomap from a simulated environment using a custom robot with the RTAB-Map package. 
 
 RTAB-Map(Real-Time Appearence Based Mapping) is a popular solution for SLAM to develop robots that can map environments in 3D. RTAB-Map has a good speed and 
