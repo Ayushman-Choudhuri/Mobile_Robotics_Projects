@@ -1,6 +1,8 @@
 
 # Home Service Robot 
-
+<p align="center">
+<img align="center" src="https://github.com/Ayushman-Choudhuri/Udacity-Robotics-Software-Engineer-Nanodegree/blob/main/Home-Service-Robot/Images%20and%20Videos/video.gif">
+</p>
 ## Project Overview 
 
 This project combines all the principles of mapping , localization and navigation
