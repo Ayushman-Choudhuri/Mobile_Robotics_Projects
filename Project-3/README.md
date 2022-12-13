@@ -1,6 +1,7 @@
 
 # Project-3: Where am I
-
+![alt-text](https://github.com/Ayushman-Choudhuri/Udacity-Robotics-Software-Engineer-Nanodegree/blob/main/Project-3/Screenshots/Localization%202.png)
+![alt-text](https://github.com/Ayushman-Choudhuri/Udacity-Robotics-Software-Engineer-Nanodegree/blob/main/Project-3/Screenshots/localization1.png)
 ## Project Overview 
 
 This project utilizes the ROS AMCL package to accurately localize a movile robot inside a map in the Gazebo simulation environement. The project aims to achieve the following: 
