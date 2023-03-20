@@ -1,6 +1,5 @@
-# Udacity-Robotics-Software-Engineer-Nanodegree
+# Mobile Robotics Projects
 
-This repository contains all the projects I have worked on during the [nanodegree](https://www.udacity.com/course/robotics-software-engineer--nd209)
 
 - [x] [Project-1: Build My World](Project-1)
 
