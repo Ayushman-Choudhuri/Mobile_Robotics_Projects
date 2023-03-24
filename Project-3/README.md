@@ -1,5 +1,5 @@
 
-# Project-3: Where am I
+# Project-3: Robot Localization using AMCL
 <p align="center">
 <img align="center" width="300" height="300" src="https://github.com/Ayushman-Choudhuri/Udacity-Robotics-Software-Engineer-Nanodegree/blob/main/Project-3/Screenshots/Localization%202.png">
 
