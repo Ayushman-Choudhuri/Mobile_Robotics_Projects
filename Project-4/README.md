@@ -1,5 +1,5 @@
 
-# Project-4: Map my World 
+# Project-4: 3D Octomap using RGBD SLAM
 
 ## Project Overview
 
