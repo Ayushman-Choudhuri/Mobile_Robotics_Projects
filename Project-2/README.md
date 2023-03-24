@@ -1,5 +1,5 @@
 
-# Project 2: Go Chase It!
+# Project 2: ROS Essentials
 
 ## Project Overview
 
