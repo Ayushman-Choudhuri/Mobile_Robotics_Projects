@@ -1,5 +1,5 @@
 
-# Project 2: ROS Essentials
+# Project 2: ROS Essentials 
 
 ## Project Overview
 
