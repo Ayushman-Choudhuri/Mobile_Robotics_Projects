@@ -1,4 +1,4 @@
-## Project 1: Build My World
+## Project 1: Building a Gazebo World
 
 ### Project Overview
 
