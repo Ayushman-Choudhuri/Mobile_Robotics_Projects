@@ -4,7 +4,7 @@
 ## Project Overview
 
 In this project two ROS packages have been created inside the `catkin_wrc\src`. 
-They are `drive_bot` and the `ball_chaser` whcih will be used in Gazebo. The steps to design the robot, hourse it in the world and program it ro chase a white ball is mentioned below: 
+They are `drive_bot` and the `ball_chaser` which will be used in Gazebo. The steps to design the robot, hourse it in the world and program it ro chase a white ball is mentioned below: 
 
 `drive_bot`
 
